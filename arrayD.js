@@ -66,7 +66,11 @@ console.log(country);
 country.splice(0 , 1 , "bangladash");
 console.log(country);
 ////////////////////splice//////////////////
-country.splice(1,5); 
+country.splice(3 , 3 , "orange"); 
 console.log(country);
-country.splice(3 , 6);
+country.splice(4 , 3  ,"grap" , "cherry" );
 console.log(country);
+/////////////////////////slice///////////////////
+
+console.log(country.slice(1 , 4));
+console.log(country.slice(1 , 2))
